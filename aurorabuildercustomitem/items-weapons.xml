@@ -3,7 +3,7 @@
   <info>
     <name>Long Red Wire Bow</name>
     <description>An oversized greatsword, only the strongest will be able to wield this mighty blade.</description>
-    <author url="https://www.dandwiki.com/wiki/Oversized_(5e_Variant_Rule)"></author>
+    <author url="https://www.dandwiki.com/wiki/Oversized_(5e_Variant_Rule)">dandwiki</author>
     <update version="0.0.1">
     	<file name="items-weapons.xml" url="https://raw.githubusercontent.com/arijeetbaruah/aurorabuildercustomitem/master/aurorabuildercustomitem/items-weapons.xml" />
     </update>
