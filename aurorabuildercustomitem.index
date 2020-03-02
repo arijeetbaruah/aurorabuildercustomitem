@@ -4,10 +4,10 @@
 		<name>Custom Item</name>
 		<description>The content from various third party sources.</description>
 		<update version="0.2.2">
-			<file name="third-party.index" url="https://raw.githubusercontent.com/arijeetbaruah/aurorabuildercustomitem/master/aurorabuildercustomitem.index" />
+			<file name="aurorabuildercustomitem.index" url="https://raw.githubusercontent.com/arijeetbaruah/aurorabuildercustomitem/master/aurorabuildercustomitem.index" />
 		</update>
 	</info>
 	<files>
-		<file name="arcanum-worlds.index" url="https://raw.githubusercontent.com/arijeetbaruah/aurorabuildercustomitem/master/aurorabuildercustomitem/items-weapons.index" />
+		<file name="items-weapons.index" url="https://raw.githubusercontent.com/arijeetbaruah/aurorabuildercustomitem/master/aurorabuildercustomitem/items-weapons.index" />
 	</files>
 </index>
