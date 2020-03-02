@@ -10,5 +10,6 @@
 	</info>
 	<files>
 		<file name="items-weapons.xml" url="https://raw.githubusercontent.com/arijeetbaruah/aurorabuildercustomitem/master/aurorabuildercustomitem/items-weapons.xml" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/arijeetbaruah/aurorabuildercustomitem/master/aurorabuildercustomitem/source.xml" />
 	</files>
 </index>
