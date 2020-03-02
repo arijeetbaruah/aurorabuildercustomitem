@@ -16,7 +16,7 @@
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="type" addition="longbow">Weapon</set>
-            		<set name="attunement">no</set>
+            <set name="attunement">no</set>
 			<set name="rarity">rare</set>
 			<set name="weapon">Longbow</set>
 		</setters>
