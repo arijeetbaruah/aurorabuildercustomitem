@@ -8,7 +8,7 @@
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/arijeetbaruah/aurorabuildercustomitem/master/aurorabuildercustomitem/items-weapons.index" />
 		</update>
 	</info>
-    <element name="Long Red Wire Bow" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_LONG_RED_WIRE_BOW">
+    <element name="Long Red Wire Bow" type="Magic Item" source="Dungeon Master’s Guide" id="ID_CUS_DMG_MAGIC_ITEM_LONG_RED_WIRE_BOW">
 		<description>
 			<p>You have a +1 bonus to attack and damage rolls made with this magic weapon.</p>
 		</description>
