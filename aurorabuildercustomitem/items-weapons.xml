@@ -5,7 +5,7 @@
     <description>An oversized greatsword, only the strongest will be able to wield this mighty blade.</description>
     <author url="https://www.dandwiki.com/wiki/Oversized_(5e_Variant_Rule)"></author>
     <update version="0.0.1">
-      <file name="items-weapons.xml" url="https://raw.githubusercontent.com/Waphles/DnD/master/Homebrew/Equipment/full-blade.xml" />
+      <file name="items-weapons.xml" url="https://raw.githubusercontent.com/arijeetbaruah/aurorabuildercustomitem/master/aurorabuildercustomitem/items-weapons.xml" />
     </update>
 	</info>	
 	<element name="Long Red Wire Bow" type="Item" source="5e Wiki" id="ID_HOMEBREW_ITEM_LONG_RED_WIRE_BOW">
