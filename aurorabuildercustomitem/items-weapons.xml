@@ -17,14 +17,14 @@
 			<p>When wielded by a Large creature, it is a Heavy, Two-Handed weapon that does 2d8 damage.</p>
 	  </description>
 	  <setters>
-	    <set name="category">Weapon</set>
-	    <set name="cost" currency="gp">100</set>
-	    <set name="weight" lb="2">2 lb.</set>
-			<set name="slot">mainhand</set>
-			<set name="damage">1d8 piercing</set>
-			<set name="heavy"></set>
-			<set name="two-handed"></set>
-	  </setters>
+			<set name="keywords">longbow</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longbow">Weapon</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Very Rare</set>
+			<set name="weapon">Longbow</set>
+		</setters>
 	  <rules />
 	</element>
 </elements>
