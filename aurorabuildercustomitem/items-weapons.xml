@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-	<info>
-		<name>Long Red Wire Bow</name>
-		<description></description>
-		<author url="https://www.dandwiki.com/wiki/Oversized_(5e_Variant_Rule)"></author>
-		<update version="0.0.1">
-			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/arijeetbaruah/aurorabuildercustomitem/master/aurorabuildercustomitem/items-weapons.xml" />
-		</update>
-	</info>
-	<element name="Long Red Wire Bow" type="Magic Item" source="Homebrew" id="ID_CUS_DMG_MAGIC_ITEM_LONG_RED_WIRE_BOW">
-		<description>
-			<p>You have a +1 bonus to attack and damage rolls made with this magic weapon.</p>
-		</description>
-		<setters>
-			<set name="category">Magic Weapons</set>
-			<set name="cost" currency="gp">0</set>
-			<set name="type" addition="longbow">Weapon</set>
-			<set name="rarity">rare</set>
-			<set name="weapon">Longbow</set>
-		</setters>
-		<rules />
+  <info>
+    <name>Long Red Wire Bow</name>
+    <description>An oversized greatsword, only the strongest will be able to wield this mighty blade.</description>
+    <author url="https://www.dandwiki.com/wiki/Oversized_(5e_Variant_Rule)"></author>
+    <update version="0.0.1">
+      <file name="items-weapons.xml" url="https://raw.githubusercontent.com/Waphles/DnD/master/Homebrew/Equipment/full-blade.xml" />
+    </update>
+	</info>	
+	<element name="Long Red Wire Bow" type="Item" source="5e Wiki" id="ID_HOMEBREW_ITEM_LONG_RED_WIRE_BOW">
+	  <supports>ID_INTERNAL_WEAPON_PROPERTY_RANGED, ID_INTERNAL_WEAPON_PROPERTY_MARTIAL, </supports>
+	  <description>
+		  <p>An oversized greatsword, only the strongest will be able to wield this mighty blade.</p>
+		  <p>A Small creature cannot use this weapon.</p>
+			<p>When wielded by a Medium creature, it is a Heavy, Two-Handed weapon that does 2d8 damage and imposes Disadvantage on attack rolls.</p>
+			<p>When wielded by a Large creature, it is a Heavy, Two-Handed weapon that does 2d8 damage.</p>
+	  </description>
+	  <setters>
+	    <set name="category">Weapon</set>
+	    <set name="cost" currency="gp">100</set>
+	    <set name="weight" lb="2">2 lb.</set>
+			<set name="slot">mainhand</set>
+			<set name="damage">1d8 piercing</set>
+			<set name="heavy"></set>
+			<set name="two-handed"></set>
+	  </setters>
+	  <rules />
 	</element>
 </elements>
